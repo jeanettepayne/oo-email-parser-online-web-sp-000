@@ -12,6 +12,7 @@ class EmailAddressParser
   
   def parse
     split_list = @list.split(', ', ' ')
+    split_list
   end
   
 end
